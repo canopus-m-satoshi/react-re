@@ -7,7 +7,6 @@ export default function App() {
   const [open, setOpen] = useState(false);
 
   const onChangeText = (e) => setText(e.target.value);
-
   const onClickOpen = () => setOpen(!open);
 
   return (
